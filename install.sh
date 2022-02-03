@@ -10,8 +10,7 @@ set -a
 . ./devcontainer-features.env
 set +a
 
-
-if [ ! -z ${_BUILD_ARG_HELLOWORLD} ]; then
+if [ ! -z ${_BUILD_ARG_HTTPIE} ]; then
     echo "Activating feature 'helloworld'"
 
     apt install python3 python3-pip
