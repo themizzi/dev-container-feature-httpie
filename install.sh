@@ -13,7 +13,7 @@ set +a
 if [ ! -z ${_BUILD_ARG_HTTPIE} ]; then
     echo "Activating feature 'helloworld'"
 
-    if [! -z ${_BUILD_ARG_HTTPIE_APT_UPDATE} ]; then
+    if [ ! -z ${_BUILD_ARG_HTTPIE_APT_UPDATE} ]; then
         apt update
     fi
     
