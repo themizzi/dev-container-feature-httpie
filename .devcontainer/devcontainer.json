@@ -28,6 +28,8 @@
 	"remoteUser": "vscode",
 
 	"features": {
-		"themizzi/dev-container-feature-httpie/httpie": "latest"
+		"themizzi/dev-container-feature-httpie/httpie": {
+			"apt_update": true
+		}
 	}
 }

@@ -3,8 +3,7 @@
         {
             "id": "httpie",
             "name": "HTTPie for devcontainers",
-            "include": ["ubuntu", "debian"],
-            "buildArg": "_VSC_INSTALL_DOCKER_IN_DOCKER"
+            "include": ["ubuntu", "debian"]
         }
     ]
 }
