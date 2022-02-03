@@ -17,6 +17,6 @@ if [ ! -z ${_BUILD_ARG_HTTPIE} ]; then
         apt update
     fi
     
-    apt install python3 python3-pip
+    apt install -y python3 python3-pip
     pip3 install httpie
 fi
