@@ -1,6 +1,13 @@
 > ⚠️ NOTE: This functionality is in PREVIEW. Please note it is subject to (heavy) modification!  
 
-# Features In This Repo
+#  HTTPie for devcontainers
+
+- [HTTPie for devcontainers](#httpie-for-devcontainers)
+  - [Features In This Repo](#features-in-this-repo)
+    - [httpie](#httpie)
+  - [Include HTTPie features in your project's devcontainer](#include-httpie-features-in-your-projects-devcontainer)
+
+## Features In This Repo
 
 ### httpie
 
